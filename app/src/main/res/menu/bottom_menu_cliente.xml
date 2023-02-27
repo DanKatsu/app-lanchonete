@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/menu_feed"
+        android:checked="true"
+        android:title="@string/menu_cliente_cardapio"
+        android:icon="@drawable/menu_cardapio_icon"
+
+    />
+
+    <item
+
+        android:id="@+id/menu_perguntas"
+        android:title="@string/menu_cliente_pedidos"
+        android:icon="@drawable/menu_pedido_icon"
+
+    />
+
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">El Grimy\'s</string>
+
+    <!--  MENU DO MAIN ACTIVITY  -->
+    <string name="menu_cliente_cardapio">Cardápio</string>
+    <string name="menu_cliente_pedidos">Pedidos</string>
+
+    <!--  SPLASH ACTIVITY  -->
+    <string name="splash_description_logo">Logo do El Grimy\'s</string>
+
+    <!--  LOGIN CLIENTE ACTIVITY  -->
+    <string name="login_clie_entrar_cliente">Entrar como cliente:</string>
+    <string name="login_clie_hint_email">Email:</string>
+    <string name="login_clie_hint_senha">Senha:</string>
+    <string name="login_clie_description_seta">Seta para logar como funcionario</string>
+    <string name="login_clie_tv_logar">Logar</string>
+    <string name="login_clie_tv_mudar_login">Entrar como Funcionário</string>
+    <string name="login_clie_erro_email_senha">Email ou senha estão incorretos</string>
+
+    <!--  EM AMBOS LOGINS  -->
+    <string name="logins_campo_obrigatorio">Esse campo é obrigatório</string>
+
+
+    <!--  LOGIN FUNC ACTIVITY  -->
+    <string name="login_func_hint_cpf">CPF:</string>
+    <string name="login_func_entrar_func">Entrar como Funcionário:</string>
+    <string name="login_func_tv_mudar_login">Entrar como Cliente</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

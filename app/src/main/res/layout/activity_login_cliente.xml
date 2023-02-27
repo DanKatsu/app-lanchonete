@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chocolate_light"
+    tools:context=".LoginClienteActivity">
+
+    <ImageView
+
+        android:id="@+id/logoPrincipal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo_splash"
+        android:layout_marginTop="50dp"
+
+        android:contentDescription="@string/splash_description_logo"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+    />
+
+    <TextView
+
+        android:id="@+id/tv_entrar_cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_clie_entrar_cliente"
+        android:textColor="@color/brown_light"
+        android:textSize="20sp"
+
+        android:layout_marginStart="40dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/logoPrincipal"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+    />
+
+    <LinearLayout
+
+        android:id="@+id/ll_inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tv_entrar_cliente"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/ti_email"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+
+            app:boxStrokeWidth="3dp"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/chocolate"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+
+            app:errorEnabled="true"
+            app:startIconDrawable="@drawable/login_clie_email_icon"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/ti_input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_clie_hint_email"
+                android:textColor="@color/brown_light"
+                android:maxLines="1"
+
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/ti_pass"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+
+            app:boxStrokeWidth="3dp"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/chocolate"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+
+            app:errorEnabled="true"
+            app:startIconDrawable="@drawable/login_hide_pass"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/ti_input_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_clie_hint_senha"
+                android:inputType="textPassword"
+                android:textColor="@color/brown_light"
+                android:maxLines="1"
+
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+
+            android:id="@+id/tv_msg_erro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="@string/login_clie_erro_email_senha"
+            android:textColor="@color/brown_light"
+            android:layout_gravity="center"
+
+        />
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/btn_logar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/login_clie_tv_logar"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/chocolate"
+
+        android:gravity="center"
+
+        app:layout_constraintTop_toBottomOf="@+id/ll_inputs"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+    />
+
+    <TextView
+
+        android:id="@+id/tv_mudar_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginTop="12dp"
+
+        android:text="@string/login_clie_tv_mudar_login"
+        android:textSize="16sp"
+
+        app:drawableTopCompat="@drawable/login_clie_ic_rightarrow"
+        android:gravity="center"
+        android:lines="2"
+        android:clickable="true"
+        android:focusable="true"
+
+        app:layout_constraintTop_toBottomOf="@+id/btn_logar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
