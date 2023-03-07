@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="50dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/iv_profile"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="10dp"
+        android:elevation="50dp"
+
+        android:layout_marginStart="5dp"
+        android:src="@drawable/logo_main"
+        android:contentDescription="@string/splash_description_logo"
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border_tv_categoria_cardapio_simple_item"
+        android:gravity="center_horizontal">
+
+        <ImageView
+
+            android:id="@+id/iv_img_produto"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/batata_frita"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/fragment_description_img"
+
+        />
+
+        <TextView
+
+            android:id="@+id/tv_categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+
+            tools:text="Porções e peticos"
+            android:textStyle="italic"
+            android:textColor="@color/chocolate"
+
+            android:gravity="center"
+            android:background="@drawable/border_tv_categoria_cardapio_simple_item"
+
+        />
+
+        <TextView
+
+            android:id="@+id/tv_name_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Batata frita especial (queijo/chedar, bacon )"
+            android:textSize="15sp"
+            android:textColor="@color/chocolate"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+
+        />
+
+        <TextView
+
+            android:id="@+id/tv_preco_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="R$24,90"
+            android:textSize="15sp"
+            android:textColor="@color/chocolate"
+            android:textAlignment="center"
+
+        />
+
+        <TextView
+
+            android:id="@+id/btn_add_carrinho"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="@string/fragment_btn_name"
+
+            android:gravity="center"
+            android:background="@color/chocolate"
+            android:clickable="true"
+            android:focusable="true"
+
+        />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".fragments.CardapioFragment">
+
+    <TextView
+
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@color/white"
+        android:gravity="center"
+
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+
+        android:text="@string/main_header_cardapio"
+        android:textAlignment="center"
+        android:textColor="@color/chocolate"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        app:drawableEndCompat="@drawable/carrinho"
+        tools:targetApi="p"
+
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/rv_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_title"
+        android:background="@drawable/border_tv_categoria_cardapio_simple_item"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingEnd="20dp"
+
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+
+        tools:listitem="@layout/fragment_cardapio_simple_item_categoria"
+
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/rv_cardapio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rv_categorias"
+        android:layout_centerHorizontal="true"
+
+        android:orientation="vertical"
+
+        android:padding="20dp"
+
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+
+        tools:itemCount="3"
+        tools:listitem="@layout/fragment_cardapio_simple_item"
+
+        />
+
+</RelativeLayout>
