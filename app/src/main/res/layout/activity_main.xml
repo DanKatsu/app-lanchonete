@@ -16,6 +16,15 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/bottom_nav"
 
+    />
+
+    <TextView
+
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@color/chocolate"
+        android:elevation="100dp"
+
         />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -25,7 +34,8 @@
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
 
-        android:background="@color/chocolate_light"
+        android:elevation="101dp"
+        android:background="@color/chocolate"
 
         app:itemIconTint="@drawable/main_item_selected"
         app:itemTextColor="@drawable/main_item_selected"

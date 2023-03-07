@@ -25,8 +25,21 @@
     <string name="login_func_hint_cpf">CPF:</string>
     <string name="login_func_entrar_func">Entrar como Funcionário:</string>
     <string name="login_func_tv_mudar_login">Entrar como Cliente</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!--  MAIN ACTIVITY  -->
+    <string name="main_header_cardapio">Nosso Cardápio</string>
+
+    <!--  FRAGMENT CARDAPIO SIMPLE ITEM  -->
+    <string name="fragment_btn_name">Adicionar ao carrinho</string>
+    <string name="fragment_description_img">Imagem do produto</string>
+
+    <!--  CATEGORIAS DOS PRODUTOS  -->
+    <string name="categoria_id_0_porcoes">Porções e petiscos</string>
+    <string name="categoria_id_1_espetos">Espetinhos</string>
+    <string name="categoria_id_2_doses">Bebidas vendidas em dose</string>
+    <string name="categoria_id_3_vinhos">Vinhos</string>
+    <string name="categoria_id_4_sucos">Sucos</string>
+    <string name="categoria_id_5_latas">Bebidas de lata ou garrafas individuais</string>
+    <string name="categoria_id_6_coqueteis">Coquetéis</string>
 
 </resources>

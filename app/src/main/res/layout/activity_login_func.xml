@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brown_light"
-    tools:context=".LoginClienteActivity"
-    >
+    android:background="@color/chocolate_light_100"
+    tools:context=".LoginClienteActivity">
 
     <ImageView
 
@@ -30,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_func_entrar_func"
-        android:textColor="@color/chocolate_light"
+        android:textColor="@color/brown_light"
         android:textSize="20sp"
 
         android:layout_marginStart="40dp"
@@ -62,7 +61,7 @@
 
             app:boxStrokeWidth="3dp"
             app:boxBackgroundMode="outline"
-            app:boxStrokeColor="@color/chocolate_light"
+            app:boxStrokeColor="@color/chocolate"
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp"
             app:boxCornerRadiusBottomStart="10dp"
@@ -70,7 +69,6 @@
 
             app:errorEnabled="true"
             app:startIconDrawable="@drawable/login_clie_email_icon"
-
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -79,8 +77,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/login_func_hint_cpf"
-                android:textColorHint="@color/chocolate_light"
-                android:textColor="@color/chocolate_light"
+                android:textColorHint="@color/chocolate_light_200"
+                android:textColor="@color/chocolate_light_200"
 
                 />
 
@@ -99,7 +97,7 @@
 
             app:boxStrokeWidth="3dp"
             app:boxBackgroundMode="outline"
-            app:boxStrokeColor="@color/chocolate_light"
+            app:boxStrokeColor="@color/chocolate"
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp"
             app:boxCornerRadiusBottomStart="10dp"
@@ -116,8 +114,8 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/login_clie_hint_senha"
                 android:inputType="textPassword"
-                android:textColorHint="@color/chocolate_light"
-                android:textColor="@color/chocolate_light"
+                android:textColorHint="@color/chocolate_light_200"
+                android:textColor="@color/chocolate_light_200"
 
                 />
 
@@ -130,7 +128,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             tools:text="Ra e senha estão incorretos"
-            android:textColor="@color/chocolate"
+            android:textColor="@color/chocolate_light_200"
             android:layout_gravity="center"
 
             />
@@ -146,7 +144,7 @@
         android:text="@string/login_clie_tv_logar"
         android:textSize="16sp"
         android:textColor="@color/white"
-        android:backgroundTint="@color/chocolate_light"
+        android:backgroundTint="@color/chocolate"
 
         android:gravity="center"
 
@@ -166,7 +164,8 @@
 
         android:text="@string/login_func_tv_mudar_login"
         android:textSize="16sp"
-        android:textColor="@color/chocolate_light"
+        android:textColor="@color/chocolate_light_200"
+        android:textStyle="bold"
 
         app:drawableTopCompat="@drawable/login_func_ic_leftarrow"
         android:gravity="center"

@@ -8,11 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="chocolate">#45322E</color>
-    <color name="chocolate_light">#5C4439</color>
+    <color name="chocolate_light_100">#5C4439</color>
+    <color name="chocolate_light_200">#AC7D68</color>
     <color name="brown_light">#DEA195</color>
+    <color name="brown_light_200">#A8F3D4B3</color>
 
-    <color name="item_selecionado">#968272</color>
+    <color name="item_selecionado">#FFFFFFFF</color>
 
-    <color name="item_nao_selecionado">#45322E</color>
+    <color name="item_nao_selecionado">#5C4439</color>
 
 </resources>

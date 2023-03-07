@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/chocolate_light"
+    android:background="@color/chocolate"
     tools:context=".LoginClienteActivity">
 
     <ImageView
@@ -61,7 +61,7 @@
 
             app:boxStrokeWidth="3dp"
             app:boxBackgroundMode="outline"
-            app:boxStrokeColor="@color/chocolate"
+            app:boxStrokeColor="@color/chocolate_light_100"
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp"
             app:boxCornerRadiusBottomStart="10dp"
@@ -69,6 +69,7 @@
 
             app:errorEnabled="true"
             app:startIconDrawable="@drawable/login_clie_email_icon"
+            android:theme="@style/Appbuteco"
 
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -78,7 +79,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/login_clie_hint_email"
-                android:textColor="@color/brown_light"
+                android:textColor="@color/chocolate_light_200"
+                android:textColorHint="@color/chocolate_light_200"
                 android:maxLines="1"
 
             />
@@ -98,7 +100,7 @@
 
             app:boxStrokeWidth="3dp"
             app:boxBackgroundMode="outline"
-            app:boxStrokeColor="@color/chocolate"
+            app:boxStrokeColor="@color/chocolate_light_100"
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp"
             app:boxCornerRadiusBottomStart="10dp"
@@ -106,6 +108,7 @@
 
             app:errorEnabled="true"
             app:startIconDrawable="@drawable/login_hide_pass"
+            android:theme="@style/Appbuteco"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -115,7 +118,8 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/login_clie_hint_senha"
                 android:inputType="textPassword"
-                android:textColor="@color/brown_light"
+                android:textColor="@color/chocolate_light_200"
+                android:textColorHint="@color/chocolate_light_200"
                 android:maxLines="1"
 
             />
@@ -145,7 +149,7 @@
         android:text="@string/login_clie_tv_logar"
         android:textSize="16sp"
         android:textColor="@color/white"
-        android:backgroundTint="@color/chocolate"
+        android:backgroundTint="@color/chocolate_light_100"
 
         android:gravity="center"
 
@@ -165,6 +169,8 @@
 
         android:text="@string/login_clie_tv_mudar_login"
         android:textSize="16sp"
+        android:textColor="@color/chocolate_light_200"
+        android:textStyle="bold"
 
         app:drawableTopCompat="@drawable/login_clie_ic_rightarrow"
         android:gravity="center"
