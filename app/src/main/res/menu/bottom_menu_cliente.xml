@@ -3,7 +3,7 @@
 
     <item
 
-        android:id="@+id/menu_feed"
+        android:id="@+id/menu_cardapio"
         android:checked="true"
         android:title="@string/menu_cliente_cardapio"
         android:icon="@drawable/menu_cardapio_icon"
@@ -12,7 +12,7 @@
 
     <item
 
-        android:id="@+id/menu_perguntas"
+        android:id="@+id/menu_pedidos"
         android:title="@string/menu_cliente_pedidos"
         android:icon="@drawable/menu_pedido_icon"
 

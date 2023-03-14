@@ -15,7 +15,7 @@
     <TextView
 
         android:id="@+id/tv_categoria"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
 
@@ -26,7 +26,7 @@
         tools:text="Bebidas de lata ou garrafas individuais"
 
         android:gravity="center"
-        android:background="@drawable/border_tv_categoria_cardapio_simple_item"
+        android:background="@drawable/border_chocolate"
         android:textColor="@color/chocolate"
         android:textStyle="italic"
 

@@ -16,8 +16,13 @@
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-buteco/app/src/main/res/layout/activity_splash.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-buteco/app/src/main/res/menu/bottom_menu_cliente.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.102" />
+        <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/border_chocolate.xml" value="0.127" />
+        <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/border_chocolate_radius20.xml" value="0.127" />
+        <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/border_radius_20_backgroud_chocolate.xml" value="0.127" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/border_tv_categoria_cardapio_simple_item.xml" value="0.127" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/carrinho.xml" value="0.107" />
+        <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/fragment_carrinho_item_img_mais.xml" value="0.127" />
+        <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/fragment_carrinho_item_img_menos.xml" value="0.1885" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/ic_launcher_background.xml" value="0.102" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/login_clie_ic_rightarrow.xml" value="0.124" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/drawable/login_func_ic_leftarrow.xml" value="0.124" />
@@ -29,6 +34,8 @@
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/layout/fragment_cardapio.xml" value="0.3106457242582897" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/layout/fragment_cardapio_simple_item.xml" value="0.4599483204134367" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/layout/fragment_cardapio_simple_item_categoria.xml" value="0.5239294710327456" />
+        <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/layout/fragment_carrinho.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/layout/fragment_carrinho_item_carrinho.xml" value="0.33" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/menu/bottom_menu_cliente.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.102" />
         <entry key="..\:/Users/admlocal.daniel/Documents/projetinhos/app-lanchonete/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.102" />

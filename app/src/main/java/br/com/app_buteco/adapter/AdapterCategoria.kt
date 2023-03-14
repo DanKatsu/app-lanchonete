@@ -66,7 +66,7 @@ class AdapterCategoria(
 
             } else {
 
-                btnCategoria.setBackgroundResource(R.drawable.border_tv_categoria_cardapio_simple_item)
+                btnCategoria.setBackgroundResource(R.drawable.border_chocolate)
 
                 btnCategoria.setTextColor(ContextCompat.getColor(itemView.context,
                     R.color.chocolate))

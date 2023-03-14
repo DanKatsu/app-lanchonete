@@ -1,6 +1,7 @@
 package br.com.app_buteco.adapter
 
 import android.annotation.SuppressLint
+import android.app.AlertDialog
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -13,7 +14,8 @@ import br.com.app_buteco.domain.Produto
 
 class AdapterProduto(
 
-    private val context: Context
+    private val context: Context,
+    private val onclick: (produto: Produto) -> Unit
 
 ) : RecyclerView.Adapter<AdapterProduto.ProdutoViewHolder>(){
 
@@ -33,9 +35,10 @@ class AdapterProduto(
     ): RecyclerView.ViewHolder(itemView){
 
         var nomeProduto = itemView.findViewById<TextView>(R.id.tv_name_produto)!!
-        var categoriaProduto = itemView.findViewById<TextView>(R.id.tv_categoria)
+        var categoriaProduto = itemView.findViewById<TextView>(R.id.tv_categoria)!!
         var precoProduto = itemView.findViewById<TextView>(R.id.tv_preco_produto)!!
         var imgProduto = itemView.findViewById<ImageView>(R.id.iv_img_produto)!!
+        var btnAdd = itemView.findViewById<TextView>(R.id.btn_add_carrinho)!!
 
     }
 
@@ -67,6 +70,11 @@ class AdapterProduto(
         holder.precoProduto.text = produtos[position].precoProduto
         holder.imgProduto.setImageResource(produtos[position].srcImgProduto)
 
+        holder.btnAdd.setOnClickListener {
+
+            onclick.invoke(produtos[position])
+
+        }
     }
 
     override fun getItemCount(): Int = produtos.size

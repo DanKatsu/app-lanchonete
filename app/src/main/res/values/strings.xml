@@ -20,7 +20,6 @@
     <!--  EM AMBOS LOGINS  -->
     <string name="logins_campo_obrigatorio">Esse campo é obrigatório</string>
 
-
     <!--  LOGIN FUNC ACTIVITY  -->
     <string name="login_func_hint_cpf">CPF:</string>
     <string name="login_func_entrar_func">Entrar como Funcionário:</string>
@@ -29,11 +28,14 @@
     <!--  MAIN ACTIVITY  -->
     <string name="main_header_cardapio">Nosso Cardápio</string>
 
-    <!--  FRAGMENT CARDAPIO SIMPLE ITEM  -->
-    <string name="fragment_btn_name">Adicionar ao carrinho</string>
-    <string name="fragment_description_img">Imagem do produto</string>
+    <!--  FRAGMENT CARDAPIO  -->
+    <string name="fragment_cardapio_desc_img">Imagem do carrinho</string>
 
-    <!--  CATEGORIAS DOS PRODUTOS  -->
+    <!--  FRAGMENT CARDAPIO SIMPLE ITEM  -->
+    <string name="fragment_cardapio_item_btn_name">Adicionar ao carrinho</string>
+    <string name="fragment_cardapio_item_description_img">Imagem do produto</string>
+
+    <!--  ADAPTER PRODUTO  -->
     <string name="categoria_id_0_porcoes">Porções e petiscos</string>
     <string name="categoria_id_1_espetos">Espetinhos</string>
     <string name="categoria_id_2_doses">Bebidas vendidas em dose</string>
@@ -41,5 +43,15 @@
     <string name="categoria_id_4_sucos">Sucos</string>
     <string name="categoria_id_5_latas">Bebidas de lata ou garrafas individuais</string>
     <string name="categoria_id_6_coqueteis">Coquetéis</string>
+    <string name="adapter_produto_alert">Produto adicionado com sucesso!</string>
+
+    <!--  FRAGMENT CARRINHO  -->
+    <string name="fragment_carrinho_text_total">Valor total de produtos</string>
+    <string name="fragment_carrinho_button_pedido">Fazer pedido</string>
+
+    <!--  FRAGMENT CARRINHO ITEM -->
+    <string name="fragment_carrinho_item_desc_img_mais">Imagem para adicionar mais produtos</string>
+    <string name="fragment_carrinho_item_desc_img_menos">Imagem para tirar produtos</string>
+    <string name="fragment_carrinho_item_qtd_item_inicial">1</string>
 
 </resources>

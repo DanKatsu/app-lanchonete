@@ -18,6 +18,15 @@ import br.com.app_buteco.fragments.CardapioFragment
 
         setContentView(binding.root)
 
+        binding.bottomNav.setOnItemSelectedListener {
+            when(it.itemId){
+
+                R.id.menu_cardapio -> setFragment(CardapioFragment())
+
+            }
+            true
+        }
+
         setFragment(CardapioFragment())
 
     }
